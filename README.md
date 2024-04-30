@@ -1,38 +1,3 @@
 ### Description
 
-A simple portfolio template for developer/designers built with React. 
-
-### [live preview](https://ubaimutl.github.io/react-portfolio/)
-
-[![react portfoiio](src/assets/images/react%20portfolio%20gif.gif)](https://ubaimutl.github.io/react-portfolio/)
-
-### Features
-
-- Fully Responsive
-- Multi-Page Layout
-- Contact Form With EmailJs
-- React-Bootstrap
-- Edit Content From One Place
-
-### Setup
-
-Get the code
-
-<pre>git clone https://github.com/ubaimutl/react-portfolio.git</pre>
- 
-Install required dependencies
-
-<pre>yarn install</pre>
-
-
-Start the server
-
-<pre>yarn start</pre>
-
-### More
-
-Modify pages content in  `src/content_option.js`.
-
-### Thanks
-
-If you like this portfolio template don't forget give it a ⭐ 
+My personal potfolio as a software engineering student. It includes a HomePage which introduces me. Then we have my potfolio page which directs you to all the github projects I have and is attached with the link for it's github repository. The about page talks about me and mentions the skills I have along with an elaboration on the projects that I have work on. Finally, the contact page is a good way to tell you how to connect with me. Also the github and linkedin button will direct you to the respected pages as well.

@@ -1,156 +1,123 @@
-const logotext = "JOHN";
+const logotext = "TAANISHQ";
 const meta = {
-    title: "John Doe",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    title: "Taanishq Sethi",
+    description: "Welcome to my Portfolio.",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "I’m Taanishq Sethi",
     animated: {
-        first: "I love coding",
-        second: "I code cool websites",
-        third: "I develop mobile apps",
+        first: "Software Engineer",
+        second: "Student at San Jose State University",
+        third: "Welcome to my Portfolio.",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    description: "",
+    your_img_url: "https://images.unsplash.com/photo-1714107409010-d790bde92f4e?q=80&w=2487&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 };
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    title: "About me.",
+    aboutme: "I am currently a third year software engineeing student at San Jose State University. I am 20 years old international student from India, currently based in San Jose, CA. I enjoy learning new topics that challenge my critical thinking ability. I have interest in Artifical Intelligence and Software Development. I am currently working on mastering Data Structures and Algorithms to help me craft high value softwares for my future company.",
 };
 const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
-        date: "2020",
+        jobtitle: "Learning Assistant",
+        where: "Peer Connections, SJSU",
+        date: "Jan 2023-Present",
     },
     {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
-    },
-    {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
-    },
+        jobtitle: "GCP Cloud Engineering Intern",
+        where: "VastEdge, India",
+        date: "Jun 2022 - Sept 2022",
+    }
 ];
 
 const skills = [{
-        name: "Python",
+        name: "JAVA",
         value: 90,
     },
     {
-        name: "Djano",
+        name: "PYTHON",
         value: 85,
     },
     {
-        name: "Javascript",
+        name: "MYSQL",
         value: 80,
     },
     {
-        name: "React",
-        value: 60,
+        name: "git",
+        value: 80,
     },
     {
-        name: "Jquery",
-        value: 85,
+        name: "C/C++",
+        value: 50,
     },
+    {
+        name:"JavaScript",
+        value: 50,
+    }
 ];
 
 const services = [{
-        title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "AssetTracker(TrackWise) Software",
+        description: "I developed an open-source personal asset-tracking software using Java and JavaFX, designed to help users efficiently manage their assets across various categories and locations. This software includes robust features that allow for searching, editing, and deleting entries, catering to user-specific needs for managing personal inventory. To ensure efficient data storage and retrieval, the application utilizes CSV files, making it a practical tool for those seeking a straightforward and effective asset management solution.",
     },
     {
-        title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Big Pocket App",
+        description: "I developed a Dart-based budgeting app specifically tailored for college students, which features intuitive financial tracking and expense recording. The app includes visual analytics, offering users detailed charts and graphs to set and achieve their financial goals, thereby enhancing their ability to manage finances effectively.",
     },
     {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Restaurant Application",
+        description: "I engineered a 600-line restaurant order management system using Python and MySQL, featuring distinct interfaces for database interaction and order processing. The application supports dual user roles: Admins, who manage the menu and customer databases, and Salesmen, who facilitate order placement and customer registration. This structure ensures efficient and role-specific interactions with the system.",
     },
 ];
 
 const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "https://plus.unsplash.com/premium_photo-1680721445143-14b0b2113256?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        description: "TrackWise(AssetTracker)",
+        link: "https://github.com/taanishqs28/TrackWise",
     },
     {
-        img: "https://picsum.photos/400/800/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
+        img: "https://images.unsplash.com/photo-1532629345422-7515f3d16bb6?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        description: "BigPocket App. Money Management App",
+        link: "https://github.com/taanishqs28/BigPocketApp",
 
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
     },
     {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "https://images.unsplash.com/photo-1514933651103-005eec06c04b?q=80&w=2874&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        description: "Restaurant Application.",
+        link: "https://github.com/taanishqs28/Restaurant-Python_project",
+
     },
     {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "https://images.unsplash.com/photo-1635259258265-4f599a1cb8be?q=80&w=2874&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        description: "Roll Dice Python Game.",
+        link: "https://github.com/taanishqs28/Roll_die_python_game",
+
     },
     {
-        img: "https://picsum.photos/400/550/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
+        img: "https://images.unsplash.com/photo-1614480633894-f3b7f4bb0e76?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        description: "Weather Forecast App.",
+        link: "https://github.com/taanishqs28/WeatherApp",
+
+    }
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
-    YOUR_FONE: "(555)123-4567",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
+    YOUR_EMAIL: "taanishqsethi28@gmail.com",
+    YOUR_FONE: "(925)758-9282",
+    description:"Let's Connect. I'm always open to discussing new projects, creative ideas, or opportunities to be part of your visions. Whether you have a question about my projects, need assistance with software engineering solutions, or just want to say hi, don’t hesitate to reach out!",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
-    YOUR_SERVICE_ID: "service_id",
-    YOUR_TEMPLATE_ID: "template_id",
-    YOUR_USER_ID: "user_id",
+    //YOUR_SERVICE_ID: "service_id",
+    //YOUR_TEMPLATE_ID: "template_id",
+    //YOUR_USER_ID: "user_id",
 };
 
 const socialprofils = {
-    github: "https://github.com",
-    facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com",
-    twitter: "https://twitter.com",
+    github: "https://github.com/taanishqs28",
+    //facebook: "https://facebook.com",
+    linkedin: "https://www.linkedin.com/in/taanishq-sethi",
+    //twitter: "https://twitter.com",
 };
 export {
     meta,

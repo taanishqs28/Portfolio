@@ -6,6 +6,7 @@ import { meta } from "../../content_option";
 import { Container, Row, Col, Alert } from "react-bootstrap";
 import { contactConfig } from "../../content_option";
 
+
 export const ContactUs = () => {
   const [formData, setFormdata] = useState({
     email: "",
@@ -63,7 +64,6 @@ export const ContactUs = () => {
       [e.target.name]: e.target.value,
     });
   };
-
   return (
     <HelmetProvider>
       <Container>

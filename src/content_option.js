@@ -108,9 +108,9 @@ const contactConfig = {
     description:"Let's Connect. I'm always open to discussing new projects, creative ideas, or opportunities to be part of your visions. Whether you have a question about my projects, need assistance with software engineering solutions, or just want to say hi, don’t hesitate to reach out!",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
-    //YOUR_SERVICE_ID: "service_id",
-    //YOUR_TEMPLATE_ID: "template_id",
-    //YOUR_USER_ID: "user_id",
+    YOUR_SERVICE_ID: "service_3z8nkpv",
+    YOUR_TEMPLATE_ID: "template_dqxrbpd",
+    YOUR_USER_ID: "XdEKOpe2BHtP4HwKwyar",
 };
 
 const socialprofils = {

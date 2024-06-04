@@ -20,9 +20,21 @@ const dataabout = {
     aboutme: "I am currently a third year software engineeing student at San Jose State University. I am 20 years old international student from India, currently based in San Jose, CA. I enjoy learning new topics that challenge my critical thinking ability. I have interest in Artifical Intelligence and Software Development. I am currently working on mastering Data Structures and Algorithms to help me craft high value softwares for my future company.",
 };
 const worktimeline = [{
+        jobtitle: "Technical Intern",
+        where: "Mamsys World",
+        date: "June 2024- Present",
+    },
+    
+    {
+        jobtitle: "Embedded Tutor",
+        where: "Peer Connections, SJSU",
+        date: "May 2024 - Present",
+    },
+    
+    {
         jobtitle: "Learning Assistant",
         where: "Peer Connections, SJSU",
-        date: "Jan 2023-Present",
+        date: "Jan 2023- May 2024",
     },
     {
         jobtitle: "GCP Cloud Engineering Intern",

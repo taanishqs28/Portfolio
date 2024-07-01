@@ -20,7 +20,7 @@ const dataabout = {
     aboutme: "I am currently a third year software engineeing student at San Jose State University. I am 20 years old international student from India, currently based in San Jose, CA. I enjoy learning new topics that challenge my critical thinking ability. I have interest in Artifical Intelligence and Software Development. I am currently working on mastering Data Structures and Algorithms to help me craft high value softwares for my future company.",
 };
 const worktimeline = [{
-        jobtitle: "Technical Intern",
+        jobtitle: "Backend Developer Intern",
         where: "Mamsys World",
         date: "June 2024- Present",
     },
@@ -52,7 +52,15 @@ const skills = [{
         value: 85,
     },
     {
+        name: "Node.js, Express.js",
+        value: 85,
+    },
+    {
         name: "MYSQL",
+        value: 80,
+    },
+    {
+        name: "AWS DynamoDB",
         value: 80,
     },
     {
@@ -61,15 +69,15 @@ const skills = [{
     },
     {
         name: "C/C++",
-        value: 50,
+        value: 70,
     },
-    {
-        name:"JavaScript",
-        value: 50,
-    }
 ];
 
-const services = [{
+const services = [ {
+    title:"To-DONOVA",
+    description:"I am developing a user-friendly to-do list application using Java and JavaFX, designed to help users organize and manage their daily tasks efficiently. The application supports task categorization and prioritization, enabling users to set deadlines and reminders for each task. To ensure seamless task management, the application features a user-friendly interface with intuitive task creation and deletion capabilities.",
+    },
+    {
         title: "AssetTracker(TrackWise) Software",
         description: "I developed an open-source personal asset-tracking software using Java and JavaFX, designed to help users efficiently manage their assets across various categories and locations. This software includes robust features that allow for searching, editing, and deleting entries, catering to user-specific needs for managing personal inventory. To ensure efficient data storage and retrieval, the application utilizes CSV files, making it a practical tool for those seeking a straightforward and effective asset management solution.",
     },
@@ -110,6 +118,12 @@ const dataportfolio = [{
         img: "https://images.unsplash.com/photo-1614480633894-f3b7f4bb0e76?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         description: "Weather Forecast App.",
         link: "https://github.com/taanishqs28/WeatherApp",
+
+    },
+    {
+        img:"https://plus.unsplash.com/premium_photo-1681487870238-4a2dfddc6bcb?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        description: "To-DONOVA",
+        link: "https://github.com/taanishqs28/To-DoNova",
 
     }
 ];

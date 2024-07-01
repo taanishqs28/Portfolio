@@ -75,7 +75,7 @@ const skills = [{
 
 const services = [ {
     title:"To-DONOVA",
-    description:"I am developing a user-friendly to-do list application using Java and JavaFX, designed to help users organize and manage their daily tasks efficiently. The application supports task categorization and prioritization, enabling users to set deadlines and reminders for each task. To ensure seamless task management, the application features a user-friendly interface with intuitive task creation and deletion capabilities.",
+    description:"I am developing a user-friendly to-do list application using Java and JavaFX, designed to help users organize and manage their daily tasks efficiently. The application supports task categorization and prioritization, enabling users to set deadlines and reminders for each task. To ensure seamless task management, the application features a user-friendly interface with intuitive task creation and deletion capabilities. For the database, I will be using Cassandra NoSQL, which ensures high availability and scalability for managing the application’s data.",
     },
     {
         title: "AssetTracker(TrackWise) Software",

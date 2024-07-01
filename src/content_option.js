@@ -56,7 +56,7 @@ const skills = [{
         value: 85,
     },
     {
-        name: "MYSQL",
+        name: "MYSQL, NoSQL",
         value: 80,
     },
     {

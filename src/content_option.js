@@ -22,7 +22,7 @@ const dataabout = {
 const worktimeline = [{
         jobtitle: "Backend Developer Intern",
         where: "Mamsys World",
-        date: "June 2024- Present",
+        date: "June 2024- September 2024",
     },
     
     {
@@ -120,7 +120,7 @@ const dataportfolio = [{
         description: "Weather Forecast App.",
         link: "https://github.com/taanishqs28/WeatherApp",
 
-    },
+    }
     //{
         // img:"https://plus.unsplash.com/premium_photo-1681487870238-4a2dfddc6bcb?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         // description: "To-DONOVA",

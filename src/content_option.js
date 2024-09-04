@@ -73,10 +73,11 @@ const skills = [{
     },
 ];
 
-const services = [ {
+const services = [ 
+    //{
     // title:"To-DONOVA",
     // description:"I am developing a user-friendly to-do list application using Java and JavaFX, designed to help users organize and manage their daily tasks efficiently. The application supports task categorization and prioritization, enabling users to set deadlines and reminders for each task. To ensure seamless task management, the application features a user-friendly interface with intuitive task creation and deletion capabilities. For the database, I will be using Cassandra NoSQL, which ensures high availability and scalability for managing the application’s data.",
-    },
+    //},
     {
         title: "AssetTracker(TrackWise) Software",
         description: "I developed an open-source personal asset-tracking software using Java and JavaFX, designed to help users efficiently manage their assets across various categories and locations. This software includes robust features that allow for searching, editing, and deleting entries, catering to user-specific needs for managing personal inventory. To ensure efficient data storage and retrieval, the application utilizes CSV files, making it a practical tool for those seeking a straightforward and effective asset management solution.",
@@ -120,12 +121,12 @@ const dataportfolio = [{
         link: "https://github.com/taanishqs28/WeatherApp",
 
     },
-    {
+    //{
         // img:"https://plus.unsplash.com/premium_photo-1681487870238-4a2dfddc6bcb?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         // description: "To-DONOVA",
         // link: "https://github.com/taanishqs28/To-DoNova",
 
-    }
+   // }
 ];
 
 const contactConfig = {

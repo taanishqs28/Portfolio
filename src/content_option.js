@@ -17,7 +17,7 @@ const introdata = {
 
 const dataabout = {
     title: "About me.",
-    aboutme: "I am currently a third year software engineeing student at San Jose State University. I am 20 years old international student from India, currently based in San Jose, CA. I enjoy learning new topics that challenge my critical thinking ability. I have interest in Artifical Intelligence and Software Development. I am currently working on mastering Data Structures and Algorithms to help me craft high value softwares for my future company.",
+    aboutme: "I am currently a senior software engineeing student at San Jose State University. I am 21 years old international student from India, currently based in San Jose, CA. I enjoy learning new topics that challenge my critical thinking ability. I have interest in Artifical Intelligence and Software Development. I am currently working on mastering Data Structures and Algorithms to help me craft high value softwares for my future company.",
 };
 const worktimeline = [{
         jobtitle: "Backend Developer Intern",
@@ -90,6 +90,14 @@ const services = [
         title: "Restaurant Application",
         description: "I engineered a 600-line restaurant order management system using Python and MySQL, featuring distinct interfaces for database interaction and order processing. The application supports dual user roles: Admins, who manage the menu and customer databases, and Salesmen, who facilitate order placement and customer registration. This structure ensures efficient and role-specific interactions with the system.",
     },
+    {
+        title: "LikeHome",
+        description: "Developed a user-friendy, responsive hotel search and booking application using Python and Django, designed to help users find and book hotels based on their preferences. The application features a user-friendly interface with intuitive search and booking functionalities, enabling users to find and book hotels based on their desired location, price range, and amenities. The application also includes a user registration, AI supported chatbot and login system, allowing users to create accounts and manage their bookings.",
+    },
+    {
+        title: "BudgetApp",
+        description: "Developed a user-friendly budgeting application using React.js and PostgreSQL using JDBC. Application lets the user to manage their accounts such as wallet and credit, as well as manage transaction withing the two types of accounts.",
+    }
 ];
 
 const dataportfolio = [{
@@ -120,6 +128,16 @@ const dataportfolio = [{
         description: "Weather Forecast App.",
         link: "https://github.com/taanishqs28/WeatherApp",
 
+    },
+    {
+        img: "https://images.unsplash.com/photo-1469796466635-455ede028aca?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        description: "LikeHome",
+        link:"https://github.com/taanishqs28/LikeHome",
+    },
+    {
+        img:"https://plus.unsplash.com/premium_photo-1683134565265-287463f36f8d?q=80&w=2919&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        description:"BudgetApp",
+        link:"https://github.com/taanishqs28/BudgetApp",
     }
     //{
         // img:"https://plus.unsplash.com/premium_photo-1681487870238-4a2dfddc6bcb?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",

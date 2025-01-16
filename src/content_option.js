@@ -49,15 +49,15 @@ const skills = [{
     },
     {
         name: "PYTHON",
-        value: 85,
+        value: 90,
     },
     {
         name: "Node.js, Express.js",
-        value: 85,
+        value: 90,
     },
     {
-        name: "MYSQL, NoSQL",
-        value: 80,
+        name: "MYSQL, NoSQL, PostgreSQL",
+        value: 90,
     },
     {
         name: "AWS DynamoDB",

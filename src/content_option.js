@@ -61,15 +61,15 @@ const skills = [{
     },
     {
         name: "AWS DynamoDB",
-        value: 80,
+        value: 85,
     },
     {
         name: "git",
-        value: 80,
+        value: 85,
     },
     {
         name: "C/C++",
-        value: 70,
+        value: 80,
     },
 ];
 

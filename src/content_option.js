@@ -142,7 +142,7 @@ const dataportfolio = [{
         img:"https://plus.unsplash.com/premium_photo-1683134565265-287463f36f8d?q=80&w=2919&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         description:"BudgetApp",
         link:"https://github.com/taanishqs28/BudgetApp",
-    }
+    },
     {
         img: "https://plus.unsplash.com/premium_photo-1700830452915-434970100217?q=80&w=3174&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         description: "HomeSentinel – AI-Powered Smart Security System",

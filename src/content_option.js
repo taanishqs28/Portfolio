@@ -20,7 +20,7 @@ const dataabout = {
     aboutme: "I am currently a senior software engineeing student at San Jose State University. I am 21 years old international student from India, currently based in San Jose, CA. I enjoy learning new topics that challenge my critical thinking ability. I have interest in Artifical Intelligence and Software Development. I am currently working on mastering Data Structures and Algorithms to help me craft high value softwares for my future company.",
 };
 const worktimeline = [{
-        jobtitle: "Backend Developer Intern",
+        jobtitle: "Full-Stack Developer Intern",
         where: "Mamsys World",
         date: "June 2024- September 2024",
     },
@@ -56,7 +56,7 @@ const skills = [{
         value: 90,
     },
     {
-        name: "MYSQL, NoSQL, PostgreSQL",
+        name: "MYSQL, NoSQL, PostgreSQL,MongoDB",
         value: 90,
     },
     {
@@ -97,6 +97,10 @@ const services = [
     {
         title: "BudgetApp",
         description: "Developed a user-friendly budgeting application using React.js and PostgreSQL using JDBC. Application lets the user to manage their accounts such as wallet and credit, as well as manage transaction withing the two types of accounts.",
+    },
+    {
+        title: "HomeSentinel – AI-Powered Smart Security System (Work in Progress)",
+        description: "HomeSentinel is an AI-powered smart security system that uses real-time facial recognition for home access control. Built with Raspberry Pi 4, OpenCV, DLib, and FastAPI, it processes facial authentication efficiently while ensuring security and ease of use. The system integrates MongoDB for facial data storage and features a React.js web dashboard and Flutter mobile app for real-time access logs and remote management. Currently a work in progress, HomeSentinel is being optimized for faster authentication, improved accuracy, and seamless user experience, making it a scalable and intelligent home security solution. "
     }
 ];
 
@@ -138,6 +142,11 @@ const dataportfolio = [{
         img:"https://plus.unsplash.com/premium_photo-1683134565265-287463f36f8d?q=80&w=2919&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         description:"BudgetApp",
         link:"https://github.com/taanishqs28/BudgetApp",
+    }
+    {
+        img: "https://plus.unsplash.com/premium_photo-1700830452915-434970100217?q=80&w=3174&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        description: "HomeSentinel – AI-Powered Smart Security System",
+        link:"https://github.com/taanishqs28/HomeSentinel",
     }
     //{
         // img:"https://plus.unsplash.com/premium_photo-1681487870238-4a2dfddc6bcb?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",

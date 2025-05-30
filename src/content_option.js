@@ -8,7 +8,7 @@ const introdata = {
     title: "I’m Taanishq Sethi",
     animated: {
         first: "Software Engineer",
-        second: "Student at San Jose State University",
+        second: "Graduated from San Jose State University",
         third: "Welcome to my Portfolio.",
     },
     description: "",
@@ -17,7 +17,7 @@ const introdata = {
 
 const dataabout = {
     title: "About me.",
-    aboutme: "I am currently a senior software engineeing student at San Jose State University. I am 21 years old international student from India, currently based in San Jose, CA. I enjoy learning new topics that challenge my critical thinking ability. I have interest in Artifical Intelligence and Software Development. I am currently working on mastering Data Structures and Algorithms to help me craft high value softwares for my future company.",
+    aboutme: "I recently graduated with a B.S. in Software Engineering from San Jose State University, where I earned Cum Laude honors. Originally from India and now based in Burlingame, CA. I've developed a strong passion for building scalable software and exploring the possibilities of Artificial Intelligence. I’m especially interested in solving real-world problems through clean architecture, data-driven systems, and impactful user experiences. I'm currently focused on deepening my understanding of Data Structures and Algorithms to sharpen my problem-solving skills as I grow into a well-rounded software engineer."
 };
 const worktimeline = [{
         jobtitle: "Full-Stack Developer Intern",
@@ -28,7 +28,7 @@ const worktimeline = [{
     {
         jobtitle: "Embedded Tutor",
         where: "Peer Connections, SJSU",
-        date: "May 2024 - Present",
+        date: "May 2024 - May 2025",
     },
     
     {
@@ -78,6 +78,14 @@ const services = [
     // title:"To-DONOVA",
     // description:"I am developing a user-friendly to-do list application using Java and JavaFX, designed to help users organize and manage their daily tasks efficiently. The application supports task categorization and prioritization, enabling users to set deadlines and reminders for each task. To ensure seamless task management, the application features a user-friendly interface with intuitive task creation and deletion capabilities. For the database, I will be using Cassandra NoSQL, which ensures high availability and scalability for managing the application’s data.",
     //},
+   {
+    title: "HomeSentinel – AI-Powered Facial Recognition Security System",
+    description: "HomeSentinel is a fully functional AI-powered home security system that uses real-time facial recognition to control access. Built with Raspberry Pi 4, OpenCV, DLib, and FastAPI, it authenticates users securely and efficiently. The system stores encrypted facial data in MongoDB and features a React.js web dashboard for managing users and viewing access logs. HomeSentinel also includes real-time alerts for unauthorized access attempts. Achieving 95% accuracy in standard lighting, the system demonstrates seamless integration between edge devices and backend services, making it a scalable and intelligent home security solution."
+    },
+{
+        title: "LikeHome",
+        description: "Developed a user-friendy, responsive hotel search and booking application using Python and Django, designed to help users find and book hotels based on their preferences. The application features a user-friendly interface with intuitive search and booking functionalities, enabling users to find and book hotels based on their desired location, price range, and amenities. The application also includes a user registration, AI supported chatbot and login system, allowing users to create accounts and manage their bookings.",
+    },
     {
         title: "AssetTracker(TrackWise) Software",
         description: "I developed an open-source personal asset-tracking software using Java and JavaFX, designed to help users efficiently manage their assets across various categories and locations. This software includes robust features that allow for searching, editing, and deleting entries, catering to user-specific needs for managing personal inventory. To ensure efficient data storage and retrieval, the application utilizes CSV files, making it a practical tool for those seeking a straightforward and effective asset management solution.",
@@ -91,20 +99,19 @@ const services = [
         description: "I engineered a 600-line restaurant order management system using Python and MySQL, featuring distinct interfaces for database interaction and order processing. The application supports dual user roles: Admins, who manage the menu and customer databases, and Salesmen, who facilitate order placement and customer registration. This structure ensures efficient and role-specific interactions with the system.",
     },
     {
-        title: "LikeHome",
-        description: "Developed a user-friendy, responsive hotel search and booking application using Python and Django, designed to help users find and book hotels based on their preferences. The application features a user-friendly interface with intuitive search and booking functionalities, enabling users to find and book hotels based on their desired location, price range, and amenities. The application also includes a user registration, AI supported chatbot and login system, allowing users to create accounts and manage their bookings.",
-    },
-    {
         title: "BudgetApp",
         description: "Developed a user-friendly budgeting application using React.js and PostgreSQL using JDBC. Application lets the user to manage their accounts such as wallet and credit, as well as manage transaction withing the two types of accounts.",
     },
-    {
-        title: "HomeSentinel – AI-Powered Smart Security System (Work in Progress)",
-        description: "HomeSentinel is an AI-powered smart security system that uses real-time facial recognition for home access control. Built with Raspberry Pi 4, OpenCV, DLib, and FastAPI, it processes facial authentication efficiently while ensuring security and ease of use. The system integrates MongoDB for facial data storage and features a React.js web dashboard and Flutter mobile app for real-time access logs and remote management. Currently a work in progress, HomeSentinel is being optimized for faster authentication, improved accuracy, and seamless user experience, making it a scalable and intelligent home security solution. "
-    }
+    
 ];
 
-const dataportfolio = [{
+const dataportfolio = [
+    {
+        img: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=2944&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        description: "HomeSentinel – AI-Powered Smart Security System",
+        link:"https://github.com/taanishqs28/HomeSentinel",
+    },
+    {
         img: "https://plus.unsplash.com/premium_photo-1680721445143-14b0b2113256?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         description: "TrackWise(AssetTracker)",
         link: "https://github.com/taanishqs28/TrackWise",
@@ -142,11 +149,6 @@ const dataportfolio = [{
         img:"https://plus.unsplash.com/premium_photo-1683134565265-287463f36f8d?q=80&w=2919&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         description:"BudgetApp",
         link:"https://github.com/taanishqs28/BudgetApp",
-    },
-    {
-        img: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=2944&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        description: "HomeSentinel – AI-Powered Smart Security System",
-        link:"https://github.com/taanishqs28/HomeSentinel",
     }
     //{
         // img:"https://plus.unsplash.com/premium_photo-1681487870238-4a2dfddc6bcb?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",

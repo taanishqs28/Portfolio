@@ -82,7 +82,11 @@ const services = [
     title: "HomeSentinel – AI-Powered Facial Recognition Security System",
     description: "HomeSentinel is a fully functional AI-powered home security system that uses real-time facial recognition to control access. Built with Raspberry Pi 4, OpenCV, DLib, and FastAPI, it authenticates users securely and efficiently. The system stores encrypted facial data in MongoDB and features a React.js web dashboard for managing users and viewing access logs. HomeSentinel also includes real-time alerts for unauthorized access attempts. Achieving 95% accuracy in standard lighting, the system demonstrates seamless integration between edge devices and backend services, making it a scalable and intelligent home security solution."
     },
-{
+    {
+        title: "PaySplit.AI",
+        description: "A portfolio-ready SaaS platform designed to help freelancers and small business owners track, categorize, and analyze their financial transactions with ease. Built a full-stack application using FastAPI (Python) for the backend and React (TypeScript) for the frontend, with PostgreSQL as the database. Implemented features include secure CSV upload and parsing, automated transaction categorization, and interactive dashboards for financial insights. Deployed the solution using modern cloud platforms (Render, Vercel), following best practices for CI/CD, environment management, and scalable architecture."
+    },
+    {
         title: "LikeHome",
         description: "Developed a user-friendy, responsive hotel search and booking application using Python and Django, designed to help users find and book hotels based on their preferences. The application features a user-friendly interface with intuitive search and booking functionalities, enabling users to find and book hotels based on their desired location, price range, and amenities. The application also includes a user registration, AI supported chatbot and login system, allowing users to create accounts and manage their bookings.",
     },
@@ -110,6 +114,11 @@ const dataportfolio = [
         img: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=2944&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         description: "HomeSentinel – AI-Powered Smart Security System",
         link:"https://github.com/taanishqs28/HomeSentinel",
+    },
+    {
+        img: "https://images.unsplash.com/photo-1745270917449-c2e2c5806586?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        description: "PaySplit.AI - Financial Management SaaS",
+        link:"https://github.com/taanishqs28/PaySplit.AI",
     },
     {
         img: "https://plus.unsplash.com/premium_photo-1680721445143-14b0b2113256?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",

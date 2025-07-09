@@ -83,7 +83,7 @@ const services = [
     description: "HomeSentinel is a fully functional AI-powered home security system that uses real-time facial recognition to control access. Built with Raspberry Pi 4, OpenCV, DLib, and FastAPI, it authenticates users securely and efficiently. The system stores encrypted facial data in MongoDB and features a React.js web dashboard for managing users and viewing access logs. HomeSentinel also includes real-time alerts for unauthorized access attempts. Achieving 95% accuracy in standard lighting, the system demonstrates seamless integration between edge devices and backend services, making it a scalable and intelligent home security solution."
     },
     {
-        title: "PaySplit.AI",
+        title: "PaySplit.AI v1",
         description: "A portfolio-ready SaaS platform designed to help freelancers and small business owners track, categorize, and analyze their financial transactions with ease. Built a full-stack application using FastAPI (Python) for the backend and React (TypeScript) for the frontend, with PostgreSQL as the database. Implemented features include secure CSV upload and parsing, automated transaction categorization, and interactive dashboards for financial insights. Deployed the solution using modern cloud platforms (Render, Vercel), following best practices for CI/CD, environment management, and scalable architecture."
     },
     {

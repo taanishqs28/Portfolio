@@ -20,6 +20,22 @@ function _ScrollToTop(props) {
 const ScrollToTop = withRouter(_ScrollToTop);
 
 export default function App() {
+  useEffect(() => {
+  // Load the GA script dynamically
+  const script = document.createElement("script");
+  script.src = "https://www.googletagmanager.com/gtag/js?id=G-M799XTQH94";
+  script.async = true;
+  document.head.appendChild(script);
+
+  // Initialize GA config
+  window.dataLayer = window.dataLayer || [];
+  function gtag() {
+    window.dataLayer.push(arguments);
+  }
+  gtag("js", new Date());
+  gtag("config", "G-M799XTQH94");
+}, []);
+
   return (
     <Router basename={process.env.PUBLIC_URL}>
       <div className="cursor__dot">
